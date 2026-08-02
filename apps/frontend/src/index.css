@@ -1,0 +1,51 @@
+:root {
+	--bg: #0d0d0f;
+	--bg-2: #141416;
+	--bg-3: #1c1c1f;
+	--bg-4: #242428;
+	--border: #2a2a2e;
+	--border-bright: #3a3a40;
+	--text: #e8e8ec;
+	--text-dim: #8888a0;
+	--text-dimmer: #55555f;
+	--sidebar-w: 240px;
+	--radius: 6px;
+	--radius-lg: 10px;
+	--font-display: "Bebas Neue", sans-serif;
+	--font-body: "Syne", sans-serif;
+	--font-mono: "JetBrains Mono", monospace;
+
+	--sans: system-ui, "Segoe UI", Roboto, sans-serif;
+	--heading: system-ui, "Segoe UI", Roboto, sans-serif;
+	--mono: ui-monospace, Consolas, monospace;
+
+	font: 18px/145% var(--sans);
+	color-scheme: light dark;
+	color: var(--text);
+	background: var(--bg);
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+	text-align: center;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+	background: var(--bg);
+	color: var(--text);
+	font-family: var(--font-body);
+	font-size: 20px;
+	line-height: 1.65;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2 {
+	color: var(--text-h);
+}
